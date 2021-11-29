@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00D2AF7A2754C019001534F9 /* LCCVie2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D2AF792754C019001534F9 /* LCCVie2Controller.m */; };
 		53778D1870E0F50A647D7150 /* Pods_LCCProtocolFinder_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCEF871E10E5FCC1D340333 /* Pods_LCCProtocolFinder_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00D2AF782754C019001534F9 /* LCCVie2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCCVie2Controller.h; sourceTree = "<group>"; };
+		00D2AF792754C019001534F9 /* LCCVie2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCCVie2Controller.m; sourceTree = "<group>"; };
+		00D2AF7B2754C034001534F9 /* LCCTestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCCTestProtocol.h; sourceTree = "<group>"; };
 		18BA9174C85AD1ECCD1CD691 /* Pods-LCCProtocolFinder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCProtocolFinder_Example.debug.xcconfig"; path = "Target Support Files/Pods-LCCProtocolFinder_Example/Pods-LCCProtocolFinder_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LCCProtocolFinder_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCCProtocolFinder_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,11 +66,11 @@
 		83F86BCBA18C6C9F9C980C80 /* Pods_LCCProtocolFinder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCCProtocolFinder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9952E951F45D27C19A6EB169 /* Pods-LCCProtocolFinder_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCProtocolFinder_Tests.release.xcconfig"; path = "Target Support Files/Pods-LCCProtocolFinder_Tests/Pods-LCCProtocolFinder_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AE6BB69061FD4663A1BC6434 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AE6BB69061FD4663A1BC6434 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B76B96FAF778DF82755FEC4C /* Pods-LCCProtocolFinder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCProtocolFinder_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LCCProtocolFinder_Tests/Pods-LCCProtocolFinder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FBCEF871E10E5FCC1D340333 /* Pods_LCCProtocolFinder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCCProtocolFinder_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE2D70DEC478DE1AD5007F91 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FE67185C3663C5B87C953E95 /* LCCProtocolFinder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LCCProtocolFinder.podspec; path = ../LCCProtocolFinder.podspec; sourceTree = "<group>"; };
+		FE2D70DEC478DE1AD5007F91 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FE67185C3663C5B87C953E95 /* LCCProtocolFinder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LCCProtocolFinder.podspec; path = ../LCCProtocolFinder.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +107,6 @@
 				B76B96FAF778DF82755FEC4C /* Pods-LCCProtocolFinder_Tests.debug.xcconfig */,
 				9952E951F45D27C19A6EB169 /* Pods-LCCProtocolFinder_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +152,9 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* LCCViewController.h */,
 				6003F5A6195388D20070C39A /* LCCViewController.m */,
+				00D2AF782754C019001534F9 /* LCCVie2Controller.h */,
+				00D2AF792754C019001534F9 /* LCCVie2Controller.m */,
+				00D2AF7B2754C034001534F9 /* LCCTestProtocol.h */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -258,6 +264,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -366,6 +373,7 @@
 			files = (
 				6003F59E195388D20070C39A /* LCCAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LCCViewController.m in Sources */,
+				00D2AF7A2754C019001534F9 /* LCCVie2Controller.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
