@@ -4,7 +4,8 @@
 #
 # Any lines starting with a # are optional, but their use is encouraged
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
+# pod repo push l63Specs LCCProtocolFinder.podspec --use-libraries --allow-warnings
+# pod trunk push LCCProtocolFinder.podspec
 
 Pod::Spec.new do |s|
   s.name             = 'LCCProtocolFinder'
