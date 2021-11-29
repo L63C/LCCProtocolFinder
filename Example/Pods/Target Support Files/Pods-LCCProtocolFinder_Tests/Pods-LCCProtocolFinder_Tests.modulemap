@@ -1,0 +1,6 @@
+framework module Pods_LCCProtocolFinder_Tests {
+  umbrella header "Pods-LCCProtocolFinder_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

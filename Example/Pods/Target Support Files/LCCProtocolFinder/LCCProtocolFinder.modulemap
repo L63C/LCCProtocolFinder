@@ -1,0 +1,6 @@
+framework module LCCProtocolFinder {
+  umbrella header "LCCProtocolFinder-umbrella.h"
+
+  export *
+  module * { export * }
+}

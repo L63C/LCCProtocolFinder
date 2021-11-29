@@ -1,0 +1,16 @@
+PODS:
+  - LCCProtocolFinder (0.1.0)
+
+DEPENDENCIES:
+  - LCCProtocolFinder (from `../`)
+
+EXTERNAL SOURCES:
+  LCCProtocolFinder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LCCProtocolFinder: e2d5d6385afe9ac6ba17748dfcdb1b2d5243c175
+
+PODFILE CHECKSUM: f14faf2223c49e8b00e645f76cd2f2f5972c7597
+
+COCOAPODS: 1.11.2
