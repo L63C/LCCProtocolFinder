@@ -28,7 +28,10 @@
     //OR
     NSArray * objs = [[ProtocolFinder defaultFinder] findObjForProtocol:@protocol(LCCTestProtocol)];
     for (id<LCCTestProtocol> obj in objs) {
-        [obj test2:@"xxx" param2:@"yyy"];
+        if(obj respondsToSelector:@selector(test2:param2:)){
+            [obj test2:@"xxx" param2:@"yyy"];
+        }
+        
     }
 }
 
