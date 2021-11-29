@@ -70,7 +70,7 @@
 		B76B96FAF778DF82755FEC4C /* Pods-LCCProtocolFinder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCProtocolFinder_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LCCProtocolFinder_Tests/Pods-LCCProtocolFinder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FBCEF871E10E5FCC1D340333 /* Pods_LCCProtocolFinder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCCProtocolFinder_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE2D70DEC478DE1AD5007F91 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FE67185C3663C5B87C953E95 /* LCCProtocolFinder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LCCProtocolFinder.podspec; path = ../LCCProtocolFinder.podspec; sourceTree = "<group>"; };
+		FE67185C3663C5B87C953E95 /* LCCProtocolFinder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LCCProtocolFinder.podspec; path = ../LCCProtocolFinder.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

@@ -20,6 +20,7 @@
     [super viewDidLoad];
 	//注册监听
     [[ProtocolFinder defaultFinder] registerObj:self forProtocols:@[@protocol(LCCTestProtocol)]];
+    
 }
 
 - (void)test:(NSString *)param{
